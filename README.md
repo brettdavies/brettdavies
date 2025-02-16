@@ -17,7 +17,15 @@ After successfully bridging business and technology for years, I'm returning to 
 - Admitted via CCAT ≥40 (top 5% global cognitive threshold) to this $100M+ funded program
 - Survived 80-100hr/week Survivor-style curriculum: Stanford-level ML coursework + shipping production code in 1-week "Speed Builds"
 - Mastered AI-first engineering: Re-architected systems with LLM copilots while mentoring teams under high performance targets
-1. [AutoCRM](https://github.com/brettdavies/autocrm):
+1. [AiAiO](https://github.com/brettdavies/AiAiO):
+   - **Description**: An AI-powered video sharing platform for sports teams, coaches, and parents. Built with SwiftUI and Firebase, it streamlines secure video uploads, real-time collaboration, and delivers automated AI-driven video summaries and face blurring for privacy.  
+   - **Technologies Used**: Swift, SwiftUI, Firebase (Auth, Firestore, Storage, Functions), FFmpeg, GPT-based AI  
+   - **Role**: Full-Stack Architect, Mobile Developer  
+   - **Key Features**:  
+     - Automatic AI-generated video summaries via cloud functions  
+     - Privacy-first design with intelligent face blurring  
+     - Real-time video processing and team-based collaboration
+2. [AutoCRM](https://github.com/brettdavies/autocrm):
    - **Description**: A production-grade CRM platform featuring real-time collaboration, military-grade security, and AI-driven insights, built on Supabase for scalable cloud infrastructure. Only my second react stack app, I fully deployed AutoCRM in only 50 development hours.
    - **Technologies Used**: React, TypeScript, Supabase, PostgreSQL, Tailwind CSS
    - **Role**: Full-Stack Architect, Developer
