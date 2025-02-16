@@ -1,96 +1,76 @@
-# Hi, I’m Brett! 👋
+# Brett Davies
 
-👨💻 **Full Stack Engineer | AI Enthusiast | Technical Leader**  
-🌍 _Pivoting back to my first love - building intelligent systems through code_
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
+![Zsh](https://img.shields.io/badge/Zsh-F15A24?style=flat&logo=zsh&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 
-After successfully bridging business and technology for years, I'm returning to my technical roots with renewed energy. I'm diving deep into modern AI/ML stacks, distributed systems, and developer tooling - and loving every minute of getting my hands back in the code.
+Building exceptional software at the intersection of distributed systems and AI.
 
-## 🚀 About Me
-- **🔭 Current Focus**: Developing scalable applications and exploring advancements in machine learning and artificial intelligence.
-- **🌱 Learning**: Enhancing my skills by integrating AI tools and platforms into my daily workflows.
-- **⚡ Fun Fact**: I’m an avid cyclist and enjoy exploring new routes on weekends.
-- **📫 How to Reach Me**: Create an [Issue](https://github.com/brettdavies/brettdavies/issues/new?template=Blank+issue) or via [LinkedIn](https://linkedin.com/in/brettdavies)
+After years bridging business and technology, I returned to my first love: writing code. Now I ship production systems in Rust, Python, and TypeScript — often in under two weeks.
 
-## 📂 Featured Projects
+---
 
-### 🏆 Gauntlet AI Fellow (0.8% Acceptance Rate)
-- Admitted via CCAT ≥40 (top 5% global cognitive threshold) to this $100M+ funded program
-- Survived 80-100hr/week Survivor-style curriculum: Stanford-level ML coursework + shipping production code in 1-week "Speed Builds"
-- Mastered AI-first engineering: Re-architected systems with LLM copilots while mentoring teams under high performance targets
-1. [AutoCRM](https://github.com/brettdavies/autocrm):
-   - **Description**: A production-grade CRM platform featuring real-time collaboration, military-grade security, and AI-driven insights, built on Supabase for scalable cloud infrastructure. Only my second react stack app, I fully deployed AutoCRM in only 50 development hours.
-   - **Technologies Used**: React, TypeScript, Supabase, PostgreSQL, Tailwind CSS
-   - **Role**: Full-Stack Architect, Developer
-   - **Key Features**:
-     - End-to-end type safety with Zod validation
-     - Row-level security policies & real-time sync
-     - Virtualized lists for 100k+ record datasets
-### 🏆 UCSD ML/AI Engineering Capstone: 
-1. [UCSD ML/AI Capstone](https://github.com/brettdavies/ucsd-ml-ai-capstone):
-   - **Description**: A UCSD ML/AI capstone project developing a framework for testing Automatic Speech Recognition (ASR) models using baseball commentary audio retrieved from YouTube and metadata retrieved from ESPN.
-   - **Technologies Used**: Python, ASR Models, PostgreSQL
-   - **Role**: Data Analyst, Researcher
-2. [YT DLP ASYNC](https://github.com/brettdavies/yt_dlp_async):
-   - **Description**: An asynchronous, parallel-processing tool for fetching and processing YouTube audio data using yt-dlp, designed to aid scalable and efficient data collection and analysis for academic research projects.
-   - **Technologies Used**: Python, yt-dlp, PostgreSQL
-   - **Role**: Architect, Data Engineer, Developer
-3. [Whisper Chunk Transcribe](https://github.com/brettdavies/whisper_chunk_transcribe):
-   - **Description**: A Python application that utilizes OpenAI’s Whisper model to transcribe audio files in segments, enhancing accuracy and efficiency for lengthy recordings.
-   - **Technologies Used**: Python, OpenAI Whisper, PostgreSQL
-   - **Role**: AI Developer, Data Engineer
+## Exceptional Projects
 
-### 🚗 Uber
-1. [Uber Partner Events Website](https://github.com/brettdavies/uber-partner-events-website):
-   - **Description**: A platform enabling Uber city operations teams to create and manage in-person events for drivers, fostering community engagement.
-   - **Technologies Used**: PHP, Uber SSO integration, MySQL
-   - **Role**: Product Manager, Designer
+| Project | Tech | Scale | Highlight |
+|---------|------|-------|-----------|
+| **[EchoAI](https://github.com/brettdavies/echo-ai)** | Rust | 32k LOC | Distributed workflow engine with plugin architecture |
+| **[IQuote Pro](https://github.com/brettdavies/insurance-broker-quote-assistant)** | TypeScript | 61k LOC | 7-day build, 100% routing accuracy |
+| **[dotfiles-lib](https://github.com/brettdavies/dotfiles-lib)** | Bash/Zsh | 78k LOC | 8-layer library architecture, 29 BATS tests |
+| **[AutoCRM](https://github.com/brettdavies/autocrm)** | TypeScript | 20k LOC | 50-hour build, 100k+ record virtualization |
 
-### 🥍 KSU Lacrosse Website
-1. [Website](https://github.com/brettdavies/ksulax-website):
-   - **Description**: The official website for the Kennesaw State University Lacrosse team, providing information on team members, game schedules, and news updates.
-   - **Technologies Used**: C#, ASP.NET MVC, SQL Server
-   - **Role**: Full-Stack Developer
-   - [Screenshots](https://github.com/brettdavies/ksulax-website/blob/master/screenshots/README.md)
-2. [Data Access Layer](https://github.com/brettdavies/ksulax-data-access-layer):
-   - **Description**: A data access layer facilitating efficient database interactions for the KSU Lacrosse website.
-   - **Technologies Used**: C#, Entity Framework & Data Model, SQL Server
-   - **Role**: Backend Developer
-3. [MCLA Data Import](https://github.com/brettdavies/ksulax-mcla-import):
-   - **Description**: A tool to import and synchronize data from the Men’s Collegiate Lacrosse Association (MCLA) into the KSU Lacrosse website.
-   - **Technologies Used**: C#, XML/XSD, SQL Server
-   - **Role**: Backend Developer, Architect, Data Engineer
+### EchoAI — Distributed Workflow Engine
 
-## 🛠️ Technical Arsenal
+- Hot-swappable plugin architecture with 8 trait interfaces
+- Thread-safe message bus using Tokio broadcast channels
+- Full observability: Prometheus, Tempo, Grafana
+- [View PROJECT.md](https://github.com/brettdavies/echo-ai/blob/main/PROJECT.md)
 
-**Core Stack**
-• **Languages**: `Python` `TypeScript` `SQL`
-• **AI/ML**: `PyTorch` `TensorFlow` `scikit-learn` `OpenAI API` 
-• **Databases**: `PostgreSQL` `SQL Server` `BigQuery` `Pinecone`
-• **Cloud**: `AWS` `GCP`
-• **ML Frameworks**: `TensorFlow` `PyTorch` `Pandas`
-• **DevOps**: `Docker` `Kubernetes` `Terraform` `GitHub` `Linux`
-• **APIs**: `FastAPI` `Flask` `REST` `WebSocket` `Postman`
-• **Data Tools**: `Pandas` `NumPy` `Jupyter` `dbt` `Prefect`
-• **Async**: `asyncio`
-• **Frontend**: `React`
-• **Media**: `FFmpeg` `yt-dlp`
-• **Visualization**: `Tableau` `Grafana`
+### IQuote Pro — Hybrid Multi-Agent AI
 
-**Emerging Focus**
-`LLM Ops` `RAG Systems` `LangChain` `Distributed Systems` `Rust` `CI/CD` `Edge AI` `Airflow`
+- 2 LLM agents + 3 deterministic rules engines
+- 40-60% LLM cost reduction through hybrid pre-processing
+- Entity-level source tracking for regulatory compliance
+- [View PROJECT.md](https://github.com/brettdavies/insurance-broker-quote-assistant/blob/development/PROJECT.md)
+
+### dotfiles-lib — Production-Grade Shell Infrastructure
+
+- Modular 8-layer library system with dependency injection
+- Cross-platform: macOS/Linux, Bash 3.2-5.2+, Zsh 5.0+
+- git-crypt encryption for secrets management
+- [View PROJECT.md](https://github.com/brettdavies/dotfiles-lib/blob/main/PROJECT.md)
+
+---
+
+## Credentials
+
+- **Gauntlet AI Fellow** — 0.8% acceptance rate, 80-100 hr/week intensive
+- **Patent Author** — USPTO 9,949,088 & 9,940,654 (Uber marketplace optimization)
+- **Senior AI Engineer** — Real-time emotion tracking with CV/NLP at Mission42
+
+---
+
+## Technical Skills
+
+- **Languages:** Rust, Python, TypeScript, Swift, Bash
+- **AI/ML:** LLM Agents, Whisper ASR, RAG, Multi-Agent Systems, Computer Vision
+- **Systems:** Distributed Systems, Plugin Architectures, Message Buses, Observability
+- **Infrastructure:** PostgreSQL, Docker, Kubernetes, Cloudflare Workers, Firebase
+
+---
 
 ## Why I Code
 
-After leadership roles in business and product, I realized my true passion lies in **building technical solutions to hard problems**. I thrive when:
-- Architecting systems that scale
-- Optimizing complex workflows and data pipelines
-- Mentoring other developers
-- Balancing engineering rigor with business impact
+I thrive when architecting systems that scale, optimizing complex workflows, and solving hard problems with elegant code. I'm the teammate who documents thoroughly, reviews thoughtfully, and ships reliably.
 
-## Let's Connect!
+---
 
-I'm actively seeking hands-on technical roles and collaborations in:
-- Machine Learning Engineering
-- AI Infrastructure
-- Developer Tools
-- Technical Leadership
+## Let's Connect
+
+- [Create an Issue](https://github.com/brettdavies/brettdavies/issues/new) for collaboration
+- [LinkedIn](https://linkedin.com/in/brettdavies) for professional inquiries
